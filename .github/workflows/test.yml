@@ -13,3 +13,8 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           wait-on: "http://localhost:3000"  # Adjust the URL to match your application's URL
+          timeout: 180 
+
+          - name: Debug Information
+  run: |
+    echo "Debug: Checking if the application is running..."
