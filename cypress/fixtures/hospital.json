@@ -1,0 +1,21 @@
+
+{
+
+            "hospitalName":"My hospital",
+            "address":"Kathmandu",
+            "description":"This is test",
+            "subDomain":"myhospital",
+            "emergencyContact":"9809898989",
+            "firstName":"John",
+            "middleName":"",
+            "lastName":"Doe",
+            "email":"test@test.com",
+            "phoneNumber":"9898989898",
+            "Province": "Bagmati",
+            "District":"lalitpur",
+            "Municipality":"lalitpur"
+            
+            
+       
+       
+}
