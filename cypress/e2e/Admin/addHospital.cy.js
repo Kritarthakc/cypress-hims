@@ -37,15 +37,7 @@ describe('Hospital Tests', () => {
     cy.get('.text-whiteText') .click()
 
 
-    // "scripts": {
-    //   "test:e2e": "cypress run",
-    //   "deploy": "npm run test:e2e && vercel --prod",
-    //   "start": "npx cypress open",
-    //   "test:e2e:open": "cypress open",
-    //   "build": "npm run build",
-    //   "build:vercel": "@vercel/static-build"
-    // },
-
+  
 
 
 
