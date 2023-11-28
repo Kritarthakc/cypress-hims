@@ -14,8 +14,8 @@ jobs:
 
       - name: Install dependencies and run build
         run: |
-        npm i
-        npm run
+          npm i
+          npm run
 
       - name: Start application
         run: npx cypress run --record --key 3c8528f8-696f-4d0d-bade-72427454f9e0
