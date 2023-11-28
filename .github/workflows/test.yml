@@ -8,13 +8,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-     
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
-          wait-on: "http://localhost:3000"  # Adjust the URL to match your application's URL
-          timeout: 180 
+          build: npm run build
+          start: npm start
 
-          - name: Debug Information
-  run: |
-    echo "Debug: Checking if the application is running..."
