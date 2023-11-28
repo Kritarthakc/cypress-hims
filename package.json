@@ -1,8 +1,19 @@
 {
   "devDependencies": {
+    "@webpack-cli/generators": "^3.0.7",
     "cypress": "^13.6.0"
   },
   "scripts": {
-    "build": "webpack --config webpack.config.js"
-  }
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
+  },
+  "dependencies": {
+    "webpack-cli": "^5.1.4"
+  },
+  "version": "1.0.0",
+  "description": "My webpack project",
+  "name": "my-webpack-project"
 }
