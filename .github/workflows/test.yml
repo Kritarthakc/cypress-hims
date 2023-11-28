@@ -15,6 +15,7 @@ jobs:
       - name: Install dependencies and run build
         run: |
           npm ci
+          npm i webpack-cli
           npm run build
 
       - name: Start application
