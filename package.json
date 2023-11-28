@@ -2,5 +2,9 @@
   "devDependencies": {
     "cypress": "^13.6.0"
     
+  },
+  "scripts": {
+    "build": "npm run build"
+
   }
 }
